@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+    <eintrag>
+        <id typ="int">1</id>
+        <typ typ="int">1</typ>
+        <typbig typ="int"></typbig>
+        <name typ="str">id</name>
+        <iskey typ="bool">1</iskey>
+        <editable typ="bool">0</editable>
+    </eintrag>
+    <eintrag>
+        <id typ="int">2</id>
+        <typ typ="int">2</typ>
+        <typbig typ="int"></typbig>
+        <name typ="str">name</name>
+        <iskey typ="bool">0</iskey>
+        <editable typ="bool">1</editable>
+    </eintrag>
+    <eintrag>
+        <id typ="int">3</id>
+        <typ typ="int">2</typ>
+        <typbig typ="int"></typbig>
+        <name typ="str">vorname</name>
+        <iskey typ="bool">0</iskey>
+        <editable typ="bool">1</editable>
+    </eintrag>
+</dictionary>

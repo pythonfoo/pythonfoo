@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+
+import sqlite3
+
+class sqlitefoo(object):
+    def __init__(self):
+        self.filename = "initdata.pro"
+        self.path = "./"
+
+        self.fullpath = self.path + self.filename
+    
+    def datafoo(self):
+        connection = sqlite3.connect(self.fullpath)
+        cursor = connection.cursor()
+
+        sqltxt = "SELECT adresse, name, vorname, key FROM adresse "
+
+        cursor.execute(sqltxt)
+        data = cursor.fetchall()
+
+        for line in data:
+            for element in line:
+                print element
+            print "--------------"
+
+
+def main():
+    doit = sqlitefoo()
+    doit.datafoo()
+
+if __name__ == "__main__":
+    main()
+
+
+print 8*"\n"

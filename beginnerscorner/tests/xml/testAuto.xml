@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<dictionary>
+	<eintrag>
+		<id typ="str"/>
+		<name typ="str">
+			Vorname
+		</name>
+	</eintrag>
+	<eintrag>
+		<id typ="str"/>
+		<name typ="int">
+			1
+		</name>
+	</eintrag>
+</dictionary>
