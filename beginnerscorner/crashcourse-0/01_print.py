@@ -25,7 +25,7 @@ print "#"+'foo'+'bar'+'#'
 print 8*'#'
 
 # some formatting stuff
-print 'parse string %s and integer %i' % 'ssd', 23
+print 'parse string %s and integer %i' % ('ssd', 23)
 
 ''' i am
 a multiline
