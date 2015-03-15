@@ -33,3 +33,7 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+
+beginnerscorner/tests/sqlite/test1.db
+.idea
