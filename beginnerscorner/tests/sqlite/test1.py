@@ -54,8 +54,7 @@ print dataRows[0]
 print '--------------------'
 
 # ne kleine selectabfrage (in "sicher")
-cursor.execute("SELECT vorname, name FROM user WHERE personalNummer>:personalNummer",
-        {"personalNummer": 2})
+cursor.execute("SELECT vorname, name FROM user WHERE personalNummer>:personalNummer", {"personalNummer": 2})
 dataRows = cursor.fetchall()
 
 for data in dataRows:
